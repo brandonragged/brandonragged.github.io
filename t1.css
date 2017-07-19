@@ -14,7 +14,7 @@ nav ul {
 padding:1% 1% 1% 1%;
   margin:1%;  
 }
-fixit {
+.fixit {
 position: fixed; /* Set the navbar to fixed position */
     top: 0; /* Position the navbar at the top of the page */
     width: 100%; /* Full width */
