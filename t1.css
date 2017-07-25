@@ -7,12 +7,13 @@ position: fixed; /* Set the navbar to fixed position */
     width: 100%; /* Full width */
   }
 #background {
-background: url("https://www.theengineeringprojects.com/wp-content/uploads/2016/11/Programming1.jpg") no-repeat 50% 50% fixed;
+background: url("https://sojo.net/sites/default/files/blog/code.jpg") no-repeat 50% 50% fixed;
 background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 -webkit-background-size: cover;
 }
+
 nav ul {
   list-style-type:none;
 padding:1% 1% 1% 1%;
@@ -23,7 +24,7 @@ nav ul li{
   max-width: 80%;
   list-style-type:none;
   display:inline;
-  padding:5% 1% 2% 1%;
+  padding:1% 1% 2% 1%;
   margin:1%;
   border-radius:10%;
   background-color:silver;
@@ -31,10 +32,9 @@ nav ul li{
   border-style: solid;
 }
 img {
-  padding:2%;
-  max-width:82%;
-  height: auto;
-  margin: 1% 1%;
+  padding:1%;
+  max-width:80%;
+  margin: 1% 1% 1% 1%;
   
 }
 ul li{
@@ -47,13 +47,14 @@ ul li{
   list-style-type:none;
   display: inline;
   padding:1% 1% 5% 1%;
-  margin:5% 4% 5% 1% ;
+  margin:5% 4% 5% 0% ;
   
   
 }
   
 #fbpic{
-  margin: 3% 0% 3% 2%;
+  margin: 1% 0% 1% 2%;
+  padding:2%;
   border-radius:50% ;
   
 }
@@ -66,14 +67,14 @@ h1{
   justify-content:space-around;
   align-items:flex;
   margin:5% ;
+  
   text-shadow: grey 0.1em 0.1em 0.2em ;
 }
 h2 {
-  text-color: white;
-  padding: 5% 6% 5% 6%;
-  text-shadow: white 0.1em 0.1em 0.5em ;
-
+  font-size: 15pt;
   
+  background-color: white;
+  border-radius:5px;
 }
 h4 {
   background-color: white;
@@ -81,7 +82,7 @@ h4 {
   border-color: black;
   padding: 5% 6% 5% 6%;
   margin: 20% 20%;
-  
+  font-size: 15pt;
 }
 
 footer {
@@ -89,11 +90,18 @@ footer {
   background-color: silver;
 }
 p {
-  font: 20pt/1.6;
+  font-size: 22pt;
   text-color: #002222;
   background-color: #7ca7ef;
-  padding: 4% ;
+  padding: 18% ;
     
+}
+h2 {
+  margin: 10%;
+  letter-spacing: 5px;
+    font-weight: 600;
+    color: #000000;
+  
 }
 .skillbox { 
    background:#111c27
@@ -106,7 +114,7 @@ p {
   margin:10% ;
   padding: 2% 2% 2% 2%;
 }
-.section-title h1{
+.section-title h1 {
     margin: 0;
     line-height: 50px;
     letter-spacing: 5px;
